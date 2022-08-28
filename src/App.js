@@ -1,11 +1,8 @@
-import './App.css';
+import React from "react";
+import LayoutComponent from "./components/LayoutComponent";
 
 function App() {
-  return (
-    <div className="App">
-     test
-    </div>
-  );
+  return <LayoutComponent />;
 }
 
 export default App;
